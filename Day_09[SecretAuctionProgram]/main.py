@@ -12,8 +12,7 @@ while(flag =="yes"):
   bid = int(input("What is your bid?: $"))
   auction_dict[name] = bid
   flag = input("Are there any other bidders? Type 'yes or 'no'.")
-  if flag=="yes":
-    clear()
+  
 
 maxi = 0
 winner_name = ""
