@@ -23,7 +23,6 @@ operations = {
 
 def calculator():
   print(logo)
-
   num1 = float(input("What's the first number?: "))
   for symbol in operations:
     print(symbol)
@@ -40,7 +39,6 @@ def calculator():
       num1 = answer
     else:
       should_continue = False
-      
       calculator()
 
 calculator()
